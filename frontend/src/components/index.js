@@ -8,6 +8,7 @@ import Signup from "./auth/Signup";
 import HeroSection from "./HeroSection/HeroSection";
 import CategoriesCarousel from "./CategoriesCarousel/CategoriesCarousel";
 import LatestJob from "./LatestJob/LatestJob";
+import LatestJobCard from "./LatestJob/LatestJobCard";
 
 
 
@@ -21,5 +22,6 @@ export {
     Signup,
     HeroSection,
     CategoriesCarousel,
-    LatestJob
+    LatestJob,
+    LatestJobCard
 };

@@ -21,7 +21,7 @@ const auth = async (req, res, next) => {
                 success: false 
             });
         }
-
+        
         req.id = decode.userId;
         req.user = decode;
 
