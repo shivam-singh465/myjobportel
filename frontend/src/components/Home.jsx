@@ -1,5 +1,5 @@
 import React from 'react'
-import { Navbar ,HeroSection, CategoriesCarousel, LatestJob} from './index'
+import { Navbar ,HeroSection, CategoriesCarousel, LatestJob, Footer} from './index'
 
 function Home() {
   return (
@@ -8,6 +8,7 @@ function Home() {
     <HeroSection/>
     <CategoriesCarousel/>
     <LatestJob/>
+    <Footer/>
     </>
   )
 }

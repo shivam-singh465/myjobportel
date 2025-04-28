@@ -1,5 +1,5 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
-import {Navbar,Home,Service,Blog,About,Login,Signup} from './components/index.js'
+import {Navbar,Home,Job,Blog,About,Login,Signup} from './components/index.js'
 
 
 function App() {
@@ -10,8 +10,8 @@ function App() {
       element: (<Home />),
     },
     {
-      path: "/service",
-      element: (<Service />),
+      path: "/job",
+      element: (<Job />),
     },
     {
       path: "/blog",

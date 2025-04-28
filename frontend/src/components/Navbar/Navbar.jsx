@@ -24,7 +24,7 @@ function Navbar() {
                         <ul className='flex gap-6 items-center text-l font'>
                             <li><Link to="/">Home</Link></li>
                             <li><Link to="/about">About</Link></li>
-                            <li><Link to="/service">Service</Link></li>
+                            <li><Link to="/job">Job</Link></li>
                             <li><Link to="/blog">Blog</Link></li>
                         </ul>
                         {
