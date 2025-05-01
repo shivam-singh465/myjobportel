@@ -10,6 +10,9 @@ import CategoriesCarousel from "./CategoriesCarousel/CategoriesCarousel";
 import LatestJob from "./LatestJob/LatestJob";
 import LatestJobCard from "./LatestJob/LatestJobCard";
 import Footer from "./Footer/Footer";
+import FilterCard from "./FilterCard/FilterCard";
+import JobCard from "./jobCard/JobCard";
+import UserPagination from "./UserPagination/UserPagination";
 
 
 
@@ -25,5 +28,8 @@ export {
     CategoriesCarousel,
     LatestJob,
     LatestJobCard,
-    Footer
+    Footer,
+    FilterCard,
+    JobCard,
+    UserPagination,
 };
