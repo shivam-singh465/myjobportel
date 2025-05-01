@@ -9,7 +9,7 @@ function Job() {
     <div>
       <Navbar />
       <div className='flex justify-center gap-3 mt-5 bg-white py-5 px-[5%]' >
-        <div className='min-w-[20%] '>
+        <div className='min-w-[20%]'>
           <FilterCard />
         </div>
 
