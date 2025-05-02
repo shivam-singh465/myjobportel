@@ -1,5 +1,5 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
-import { Navbar, Home, Job, Blog, About, Login, Signup, Profile, } from './components/index.js'
+import { Home, Job, Blog, About, Login, Signup, Profile, JobDiscription, } from './components/index.js'
 
 
 
@@ -33,6 +33,10 @@ function App() {
     {
       path: "/profile",
       element: (<Profile />),
+    },
+    {
+      path: "/discription/:id",
+      element: (<JobDiscription />),
     },
 
   ])

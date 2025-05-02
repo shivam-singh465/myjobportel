@@ -14,6 +14,8 @@ import FilterCard from "./FilterCard/FilterCard";
 import JobCard from "./jobCard/JobCard";
 import UserPagination from "./UserPagination/UserPagination";
 import Profile from "./Profile";
+import AppliedJobTable from "./AppliedJobTable/AppliedJobTable";
+import JobDiscription from "./JobDiscription/JobDiscription";
 
 
 
@@ -34,4 +36,6 @@ export {
     JobCard,
     UserPagination,
     Profile,
+    AppliedJobTable,
+    JobDiscription,
 };
