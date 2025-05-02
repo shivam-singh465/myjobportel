@@ -14,7 +14,7 @@ function Navbar() {
 
 
     // const [user, setUser] = useState(false)
-    const {user} = useSelector(store=>store.auth)
+    const { user } = useSelector(store => store.auth)
 
 
     return (
@@ -36,24 +36,28 @@ function Navbar() {
                         {
                             !user ? (
                                 <div className='flex gap-4'>
-                                   <Link to='/login'> <Button variant='outline' className='rounded-2 px-4 py-2 bg-purple-700 text-white hover:bg-purple-800 hover:text-white hover:scale-105'>Login</Button></Link>
-                                   <Link to='/signup'>    <Button variant='outline' className='rounded-2 px-4 py-2 hover:bg-purple-800 hover:text-white hover:scale-105'>Signup</Button></Link>
+                                    <Link to='/login'> <Button variant='outline' className='rounded-2 px-4 py-2 bg-purple-700 text-white hover:bg-purple-800 hover:text-white hover:scale-105'>Login</Button></Link>
+                                    <Link to='/signup'>    <Button variant='outline' className='rounded-2 px-4 py-2 hover:bg-purple-800 hover:text-white hover:scale-105'>Signup</Button></Link>
                                 </div>
                             ) : (
 
 
                                 <Popover className='bg-purple-600 px-4 py-2 rounded-full'>
                                     <PopoverTrigger>
+
                                         <Avatar className='w-10 h-10'>
                                             <AvatarImage src={logo} alt="Avatar Image" className='object-cover cursor-pointer' />
                                         </Avatar>
+
                                     </PopoverTrigger>
                                     <PopoverContent className='p-3'>
 
                                         <div id='ur' className='flex items-center gap-2 m-0'>
-                                            <Avatar className='w-10 h-10'>
-                                                <AvatarImage src={logo} alt="Avatar Image" className='object-cover cursor-pointer' />
-                                            </Avatar>
+                                            <Link to="/profile">
+                                                <Avatar className='w-10 h-10'>
+                                                    <AvatarImage src={logo} alt="Avatar Image" className='object-cover cursor-pointer' />
+                                                </Avatar>
+                                            </Link>
                                             <div>
                                                 <p className='text-2xl'> Shivam Singh</p>
                                                 <p className='text-sm leading-3 text-muted-foreground'>Lorem ipsum dolor sit amet consectetur </p>

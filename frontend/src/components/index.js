@@ -13,6 +13,7 @@ import Footer from "./Footer/Footer";
 import FilterCard from "./FilterCard/FilterCard";
 import JobCard from "./jobCard/JobCard";
 import UserPagination from "./UserPagination/UserPagination";
+import Profile from "./Profile";
 
 
 
@@ -32,4 +33,5 @@ export {
     FilterCard,
     JobCard,
     UserPagination,
+    Profile,
 };
