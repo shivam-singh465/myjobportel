@@ -9,8 +9,14 @@ import { LogOut } from 'lucide-react'
 import { useState } from 'react'
 import { Button } from '../ui/button'
 import { Link } from 'react-router-dom'
+import { useSelector } from 'react-redux'
 function Navbar() {
-    const [user, setUser] = useState(false)
+
+
+    // const [user, setUser] = useState(false)
+    const {user} = useSelector(store=>store.auth)
+
+
     return (
         <>
             <div >
