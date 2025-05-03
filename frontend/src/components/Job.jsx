@@ -22,7 +22,7 @@ function Job() {
               )
             })
           }
-          <JobCard />
+          
 
         </div>
 
